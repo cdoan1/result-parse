@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite name="OpenClusterManagementE2E Suite" tests="27" failures="0" errors="0" time="264.776">
+      <testcase name="management-ingress testing should have the expected running ingress pod in namespace: open-cluster-management (ingress/g0)" classname="OpenClusterManagementE2E Suite" time="0.390839762"></testcase>
+      <testcase name="management-ingress testing should allow the user to login to web console (ingress/g0)" classname="OpenClusterManagementE2E Suite" time="5.598059845"></testcase>
+      <testcase name="mongodb testing should have the expected running mongodb pod in namespace: open-cluster-management" classname="OpenClusterManagementE2E Suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="mongodb testing should create mongodb test pod (mongodb/g0)" classname="OpenClusterManagementE2E Suite" time="5.274160034"></testcase>
+      <testcase name="mongodb testing should connect to mongodb server (mongodb/g0)" classname="OpenClusterManagementE2E Suite" time="1.197351503"></testcase>
+      <testcase name="mongodb testing should insert data to mongodb server (mongodb/g0)" classname="OpenClusterManagementE2E Suite" time="1.451526598"></testcase>
+      <testcase name="mongodb testing should found data from mongodb server (mongodb/g0)" classname="OpenClusterManagementE2E Suite" time="1.4336988050000001"></testcase>
+      <testcase name="mongodb testing should remove data from mongodb server (mongodb/g0)" classname="OpenClusterManagementE2E Suite" time="1.433571214"></testcase>
+      <testcase name="mongodb testing should delete mongodb test pod (mongodb/g0)" classname="OpenClusterManagementE2E Suite" time="0.134195441"></testcase>
+      <testcase name="Given a hub API should have the expected deployments in open-cluster-management namespace (install/g0)" classname="OpenClusterManagementE2E Suite" time="2.289595049"></testcase>
+      <testcase name="Given a hub API should have the expected deployments in hive namespace (install/g0)" classname="OpenClusterManagementE2E Suite" time="0.243461375"></testcase>
+      <testcase name="Given a hub API should be able to provision an AWS cluster using hive (cluster/g5/hive/aws)" classname="OpenClusterManagementE2E Suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="Given a hub API should be able to provision a GCP cluster using hive (cluster/g5/hive/gcp)" classname="OpenClusterManagementE2E Suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="Given a hub API should be able to provision an Azure cluster using hive (cluster/g5/hive/azure)" classname="OpenClusterManagementE2E Suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="Given a hub cluster web console when the user is already authenticated should allow adding multiple baremetal assets (cluster/g0/hive/baremetal/ui/asset)" classname="OpenClusterManagementE2E Suite" time="34.589497047"></testcase>
+      <testcase name="Given a hub cluster web console when the user is already authenticated should allow adding a provider connection record for baremetal resource (cluster/g0/hive/baremetal/ui/pc)" classname="OpenClusterManagementE2E Suite" time="14.262177719"></testcase>
+      <testcase name="Given a hub cluster web console when the user is already authenticated should allow provision OCP on a baremetal resource (cluster/g0/hive/baremetal/ui/provision)" classname="OpenClusterManagementE2E Suite" time="27.37480339"></testcase>
+      <testcase name="Given a hub cluster web console when the user is already authenticated should allow provision OCP on a baremetal resource (cluster/g6/hive/baremetal/ui/provision)" classname="OpenClusterManagementE2E Suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="Given a hub cluster web console when the user is already authenticated should have a menu (nav/g0/menu)" classname="OpenClusterManagementE2E Suite" time="16.578787753"></testcase>
+      <testcase name="Given a hub cluster web console when the user is already authenticated should have have toolbar (nav/g0/toolbar)" classname="OpenClusterManagementE2E Suite" time="15.34439538"></testcase>
+      <testcase name="Given a hub cluster web console when the user is already authenticated should allow the user to view and create Cloud Connections (cluster/g0)" classname="OpenClusterManagementE2E Suite" time="32.791532763"></testcase>
+      <testcase name="Manual import cluster Given a list of clusters to import (cluster/g0/manual-import-service-resources)" classname="OpenClusterManagementE2E Suite" time="0.000750439">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="Given a hub cluster web console should allow the user to login to web console (ui/g0)" classname="OpenClusterManagementE2E Suite" time="7.510715186"></testcase>
+      <testcase name="Given a hub cluster web console when the user is already authenticated should allow the user to view the Overview (ui/g0)" classname="OpenClusterManagementE2E Suite" time="6.708569956"></testcase>
+      <testcase name="Given a hub cluster web console when the user is already authenticated should allow the user to view the Cluster Overview (cluster/g0)" classname="OpenClusterManagementE2E Suite" time="6.932190467"></testcase>
+      <testcase name="Given a hub cluster web console when the user is already authenticated should allow the user to import the local cluster (cluster/g0)" classname="OpenClusterManagementE2E Suite" time="12.213210181"></testcase>
+      <testcase name="Given a hub cluster web console when the user is already authenticated should allow the user to view the Search Engine (search/g0)" classname="OpenClusterManagementE2E Suite" time="7.109681408"></testcase>
+      <testcase name="Given a hub cluster web console when the user is already authenticated should allow the user to view the Visual Web Terminal (vwt/g0)" classname="OpenClusterManagementE2E Suite" time="16.647637995"></testcase>
+      <testcase name="Given a hub cluster web console when the user is already authenticated should allow the user to view Applications (apps/g0)" classname="OpenClusterManagementE2E Suite" time="9.084631525"></testcase>
+      <testcase name="Given a hub cluster web console when the user is already authenticated should allow the user to view Policies (grc/g0)" classname="OpenClusterManagementE2E Suite" time="8.207981398"></testcase>
+      <testcase name="Given a hub cluster web console when the user is already authenticated should have a button to create new Policies (grc/g0)" classname="OpenClusterManagementE2E Suite" time="7.463764374"></testcase>
+      <testcase name="Given a hub cluster web console when the user is already authenticated should be able to create a simple policy (grc/g0)" classname="OpenClusterManagementE2E Suite" time="13.641548996000001"></testcase>
+      <testcase name="Given a hub cluster web console when the user is already authenticated should allow the user to view the Topology (topology/g0)" classname="OpenClusterManagementE2E Suite" time="8.347366599"></testcase>
+  </testsuite>
